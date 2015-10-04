@@ -1,4 +1,4 @@
-var net = require('net');
+var net = require('net')
 
 var tcpServer = net.createServer(function(socket){
                 console.log('conection established...');
